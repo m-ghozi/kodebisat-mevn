@@ -1,0 +1,16 @@
+h1 {
+  color: red;
+  font-size: small;
+}
+
+p {
+  color: white;
+  background-color: gray;
+}
+
+p.p2 {
+  color: black;
+  background-color: lightgray;
+  text-align: center;
+  font-weight: bold;
+}
