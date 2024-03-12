@@ -15,7 +15,9 @@
   <body>
     <div class="container">
       <h1>Hello World</h1>
-      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-primary">
+        Notification <span class="badge text-bg-secondary">4</span>
+      </button>
       <button type="button" class="btn btn-warning text-white">
         Secondary
       </button>
@@ -26,6 +28,15 @@
         Close
       </button>
       <input class="btn btn-warning" type="reset" value="Reset" />
+      <button type="button" class="btn btn-outline-info position-relative">
+        Alert
+        <span
+          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+        >
+          99+
+          <span class="visually-hidden">unread messages</span>
+        </span>
+      </button>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis,
         nemo vitae. Animi itaque dignissimos assumenda exercitationem expedita
@@ -56,6 +67,15 @@
           Someone famous in <cite title="Source Title">Source Title</cite>
         </figcaption>
       </figure>
+      <div
+        class="btn-group"
+        role="group"
+        aria-label="Basic mixed styles example"
+      >
+        <button type="button" class="btn btn-danger">Left</button>
+        <button type="button" class="btn btn-warning">Middle</button>
+        <button type="button" class="btn btn-success">Right</button>
+      </div>
     </div>
 
     <script
